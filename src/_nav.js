@@ -23,10 +23,28 @@ const _nav = [
   },
 
   {
-    component: CNavItem,
-    name: 'User',
+    component: CNavGroup,
+    name: 'Account',
     to: '/profile',
     icon: <CIcon icon={cilUser} customClassName="nav-icon" />,
+    items: [
+
+      {
+        component: CNavItem,
+        name: 'Account',
+        to: '/profile',
+      },
+      {
+        component: CNavItem,
+        name: 'Login',
+        to: '/login',
+      },
+      {
+        component: CNavItem,
+        name: 'Register',
+        to: '/register',
+      },
+    ],
   },
 
   {
@@ -78,6 +96,7 @@ const _nav = [
       },
     ],
   },
+
 ]
 
 export default _nav
