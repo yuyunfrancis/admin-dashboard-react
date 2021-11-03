@@ -1,7 +1,8 @@
+/* eslint-disable prettier/prettier */
 export const logoNegative = [
-  '608 134',
-  `
-  <?xml version="1.0" encoding="utf-8"?>
+	'608 134',
+	`
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 430 430" style="enable-background:new 0 0 430 430;" xml:space="preserve">
@@ -35,6 +36,5 @@ export const logoNegative = [
 		v189.85h253.34V186.09c0-3.57,2.89-6.46,6.46-6.46s6.46,2.89,6.46,6.46v190.5C354.36,380.16,351.47,383.06,347.9,383.06z"/>
 </g>
 </svg>
-
 `,
 ]
