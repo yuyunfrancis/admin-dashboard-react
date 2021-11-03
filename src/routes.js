@@ -23,9 +23,6 @@ const routes = [
   { path: '/profile', name: 'Admin User', component: User, exact: true },
 
   { path: '/orders', name: 'All Orders', component: Orders, exact: true },
-
-  // { path: '/login', name: 'Login', component: Login, exact: true },
-  // { path: '/register', name: 'Register', component: Register },
 ]
 
 export default routes
